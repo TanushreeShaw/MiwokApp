@@ -1,5 +1,4 @@
 package com.example.android.miwok;
-
 import android.content.Context;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
@@ -45,6 +44,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Return the total number of pages.
      */
+    
     @Override
     public int getCount() {
         return 4;
