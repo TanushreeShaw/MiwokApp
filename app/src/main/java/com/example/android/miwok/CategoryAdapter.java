@@ -28,6 +28,7 @@ public class CategoryAdapter extends FragmentPagerAdapter {
     /**
      * Return the {@link Fragment} that should be displayed for the given page number.
      */
+    
     @Override
     public Fragment getItem(int position) {
         if (position == 0) {
